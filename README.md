@@ -12,3 +12,17 @@ Then run it with:
 
     $java -jar target/dependency/webapp-runner.jar target/*.war
 
+
+
+
+…or create a new repository on the command line
+echo "# template-java-spring-hibernate" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/jav2074/template-java-spring-hibernate.git
+git push -u origin master
+                
+…or push an existing repository from the command line
+git remote add origin https://github.com/jav2074/template-java-spring-hibernate.git
+git push -u origin master
