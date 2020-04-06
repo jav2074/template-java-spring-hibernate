@@ -58,9 +58,9 @@
   <!-- /// -->
   <script type="text/javascript">
 
-    // function appname() {
-    //   return location.hostname.substring(0, location.hostname.indexOf("."));
-    // }
+    function appname() {
+      return location.hostname.substring(0, location.hostname.indexOf("."));
+    }
 
   </script>
 </head>
